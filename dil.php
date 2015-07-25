@@ -2,15 +2,14 @@
 
 // Character encoding
 $LNG['charset'] = "iso-8859-1";
-
-$LNG['user_success'] = 'User succesfully created!';
-$LNG['user_exists'] = 'This username already exists.';
-$LNG['email_exists'] = 'This e-mail is already in use.';
-$LNG['all_fields'] = 'All fields are required!';
-$LNG['user_alnum'] = 'The username must consists only from letters and numbers.';
-$LNG['user_too_short'] = 'The username must be between 3 and 32 characters.';
-$LNG['invalid_email'] = 'Invalid e-mail!';
-$LNG['invalid_user_pw'] = 'Invalid username or password.';
+$LNG['user_success'] = 'Tamamdır üye oldun!';
+$LNG['user_exists'] = 'Bu kullanıcı adını daha önce kullanmışlar :(';
+$LNG['email_exists'] = 'Bu e-posta adresi daha önce kullanılmış.';
+$LNG['all_fields'] = 'Bütün boşlukları doldursana';
+$LNG['user_alnum'] = 'Kardeş kullanıcı adın sadece harflerden ve rakamlardan oluşmalı!.';
+$LNG['user_too_short'] = 'Kullanıcı adın 3 karakterden fazla, 34 karakterden az olmalı.';
+$LNG['invalid_email'] = 'Geçersiz e-posta';
+$LNG['invalid_user_pw'] = 'Geçersiz kullanıcı adı veya şifre';
 $LNG['invalid_captcha'] = 'Invalid captcha';
 $LNG['log_out'] = 'Çıkış Yap';
 $LNG['hello'] = 'Merhaba';
@@ -20,20 +19,20 @@ $LNG['password'] = 'Şifre';
 $LNG['username'] = 'Kullanıcı Adı';
 $LNG['email'] = 'E-Posta';
 $LNG['captcha'] = 'Captcha';
-$LNG['username_or_email'] = 'Username or email';
-$LNG['welcome_desc'] = 'heryerde herzaman müzik ve eğlence.';
-$LNG['welcome_about'] = 'paylaş,dinle,eğlen';
-$LNG['join_now'] = 'Katıl';
-$LNG['learn_more'] = 'Learn More';
-$LNG['creators'] = 'Creators';
-$LNG['listeners'] = 'Listeners';
-$LNG['audience'] = 'Audience';
-$LNG['organize'] = 'Organize';
-$LNG['featured'] = 'Featured';
+$LNG['username_or_email'] = 'Kullanıcı Adu veya e-posta';
+$LNG['welcome_desc'] = 'heryerde her zaman müzik ve eğlence.';
+$LNG['welcome_about'] = 'paylaş, dinle, eğlen';
+$LNG['join_now'] = 'Üye Ol';
+$LNG['learn_more'] = 'Daha fazla bilgi için';
+$LNG['creators'] = 'Oluşturucular';
+$LNG['listeners'] = 'Dinleyiciler';
+$LNG['audience'] = 'Seyirci';
+$LNG['organize'] = 'Düzenle';
+$LNG['featured'] = 'Özellikli';
 $LNG['popular'] = 'Popüler';
-$LNG['upload_desc'] = 'Upload your sounds, music, podcasts to the world';
-$LNG['audience_desc'] = 'Connect with our community and increase your audience';
-$LNG['statistics_desc'] = 'Get to know your audience with advanced statistics';
+$LNG['upload_desc'] = 'Müziklerini veya ses kayıtlarını dünya ile paylaş!';
+$LNG['audience_desc'] = 'Bizimle iletişime geç ve seyircini oluştur!';
+$LNG['statistics_desc'] = 'Dinleyici istatiklerini gör';
 $LNG['explore_desc'] = 'Explore new music, discover new people and engage with artists';
 $LNG['share_desc'] = 'Share your favorite music with your friends on social networks';
 $LNG['organize_desc'] = 'Create playlists and organize your music the way you like';
@@ -224,14 +223,14 @@ $LNG['start_conversation'] = 'You can start a conversation by choosing a person 
 $LNG['send_message'] = 'Send Message';
 
 // UPLOAD / EDIT //
-$LNG['upload_track'] = 'Upload Track';
-$LNG['upload_image'] = 'Upload Image';
-$LNG['track_selected'] = 'Track selected';
-$LNG['image_selected'] = 'Image Selected';
+$LNG['upload_track'] = 'Şarkı Yükle';
+$LNG['upload_image'] = 'Şarkı Kapağı Yükle';
+$LNG['track_selected'] = 'Şarkı Kapağı Seçildi';
+$LNG['image_selected'] = 'Şarkı Seçildi';
 
-$LNG['0_upload_err'] = 'Your account has exceeded the total upload size allowed';
-$LNG['1_upload_err'] = 'No track selected';
-$LNG['2_upload_err'] = 'The selected track is too big. Allowed max. file size is %s';
+$LNG ['0_upload_err'] = 'senin planına göre çok fazla bu dosya boyutu hatta aşmışta olabilir güvenemiyorum :) ';
+$LNG ['1_upload_err'] = 'hiçbir dosya seçilmemiş';
+$LNG ['2_upload_err'] = ' Seçili dosya çok büyük. En fazla izin. %s dosya boyutudur';
 $LNG['3_upload_err'] = 'The selected track does not have a valid format. Upload a %s audio file type';
 $LNG['4_upload_err'] = 'The selected cover art is too big. Allowed max. file size is %s';
 $LNG['5_upload_err'] = 'The selected cover art does not have a valid format. Upload a %s file type';
@@ -247,7 +246,7 @@ $LNG['congratulations'] = 'Congratulations';
 $LNG['track_uploaded'] = 'Your track has been successfully uploaded';
 $LNG['or'] = 'or';
 
-$LNG['license'] = 'License';
+$LNG['license'] = 'Lisans';
 $LNG['licensed_under'] = 'Licensed under';
 $LNG['metadata'] = 'Metadata';
 $LNG['permissions'] = 'Permissions';
@@ -411,19 +410,21 @@ $LNG['admin_menu_manage_ads'] = 'Manage Ads';
 $LNG['admin_menu_manage_categories'] = 'Manage Categories';
 
 
-$LNG['admin_ttl_sidebar'] = 'Menu';
-$LNG['admin_ttl_general'] = 'General Settings';
-$LNG['admin_ttl_security'] = 'Password Settings';
-$LNG['admin_ttl_social'] = 'Social Login';
-$LNG['admin_ttl_pro'] = 'Pro Accounts';
-$LNG['admin_ttl_themes'] = 'Themes';
-$LNG['admin_ttl_users'] = 'Manage Users';
-$LNG['admin_ttl_stats'] = 'Statistics';
-$LNG['admin_ttl_users_settings'] = 'Users Settings';
-$LNG['admin_ttl_reports'] = 'Manage Reports';
-$LNG['admin_ttl_ads'] = 'Manage Advertisments';
-$LNG['admin_ttl_categories'] = 'Manage Categories';
-$LNG['admin_ttl_payments'] = 'Manage Payments';
+
+$LNG ['admin_ttl_sidebar'] = 'Menü';
+$LNG ['admin_ttl_general'] = "Genel Ayarlar";
+$LNG ['admin_ttl_security'] = 'Şifre ayarları';
+$LNG ['admin_ttl_social'] = 'Sosyal oturumu';
+$LNG ['admin_ttl_pro'] = 'Pro hesapları';
+$LNG ['admin_ttl_themes'] = 'Temalar';
+$LNG ['admin_ttl_users'] = 'Kullanıcı yönetmek';
+$LNG ['admin_ttl_stats'] = 'İstatistik';
+$LNG ['admin_ttl_users_settings'] = 'Kullanıcı ayarları';
+$LNG ['admin_ttl_reports'] = 'Raporlar yönetmek';
+$LNG ['admin_ttl_ads'] = 'Reklamlar yönetmek';
+$LNG ['admin_ttl_categories'] = 'Kategoriler yönetmek';
+$LNG ['admin_ttl_payments'] = 'Ödemeleri yönetmek';
+
 
 $LNG['admin_ttl_title'] = 'Title';
 $LNG['admin_sub_title'] = 'The site\'s title';
@@ -557,41 +558,44 @@ $LNG['admin_ttl_mail'] = 'Email';
 $LNG['admin_ttl_username'] = 'Username';
 $LNG['admin_ttl_id'] = 'ID'; // As in user ID
 
-$LNG['admin_ttl_notificationl'] = 'Likes Notifications';
-$LNG['admin_sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong> (can be changed from user\'s settings)';
 
-$LNG['admin_ttl_notificationc'] = 'Comments Notifications';
-$LNG['admin_sub_notificationc'] = 'Display alert and notifications for <strong>Comments</strong> (can be changed from user\'s settings)';
 
-$LNG['admin_ttl_notificationd'] = 'Chat Notifications';
-$LNG['admin_sub_notificationd'] = 'Display alert and notifications for <strong>Chats</strong> (can be changed from user\'s settings)';
+$LNG ['admin_ttl_notificationl'] = 'Beğeni Bildirimi';
+$LNG ['admin_sub_notificationl'] = 'görünen uyarı ve <strong>seviyor</strong> için bildirimleri (user\'ın ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_notificationf'] = 'Friends Notifications';
-$LNG['admin_sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong> (can be changed from user\'s settings)';
+$LNG ['admin_ttl_notificationc'] = 'Yorum bildirimleri';
+$LNG ['admin_sub_notificationc'] = 'görünen uyarı ve <strong>Yorumlar</strong> için bildirimleri (user\'ın ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_email_comment'] = 'Email on Comment';
-$LNG['admin_sub_email_comment'] = 'Enable sending e-mails when someone comments to a track';
+$LNG ['admin_ttl_notificationd'] = 'Sohbet Bildirimleri';
+$LNG ['admin_sub_notificationd'] = 'görünen uyarı ve <strong>sohbetleri</strong> için bildirimleri (user\'ın ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_email_like'] = 'Email on Like';
-$LNG['admin_sub_email_like'] = 'Enable sending e-mails when someone likes a track';
+$LNG ['admin_ttl_notificationf'] = 'Arkadaş bildirimleri';
+$LNG ['admin_sub_notificationf'] = 'görünen uyarı ve bildirimleri için <strong>Arkadaş ekleme</strong> (user\'ın ayarlarından değiştirilebilir)';
 
-$LNG['admin_ttl_email_new_friend'] = 'Email on New Friend';
-$LNG['admin_sub_email_new_friend'] = 'Enable sending e-mails when someone adds a friend';
+$LNG ['admin_ttl_email_comment'] = 'E-posta yorum';
+$LNG ['admin_sub_email_comment'] = 'etkinleştir ne zaman birisi bir parça vermek-yorum e-posta gönderme';
 
-$LNG['admin_ttl_wholiked'] = 'Who Liked';
-$LNG['admin_sub_wholiked'] = 'Display avatars of the users that liked a track';
+$LNG ['admin_ttl_email_like'] = ' e-posta gibi ';
+$LNG ['admin_sub_email_like'] = 'etkinleştir birisi bir parça sevdiği zaman e-posta gönderme';
 
-$LNG['admin_ttl_rperpage'] = 'Admin Panel';
-$LNG['admin_sub_rperpage'] = 'Results per page for Admin Manage pages';
+$LNG ['admin_ttl_email_new_friend'] = 'Yeni arkadaş üstünde Email';
+$LNG ['admin_sub_email_new_friend'] = 'etkinleştir ne zaman birisi bir arkadaş ekler e-posta gönderme';
 
-$LNG['admin_ttl_sperpage'] = 'Friends';
-$LNG['admin_sub_sperpage'] = 'Number of friends per page to be displayed (profile page)';
+$LNG ['admin_ttl_wholiked'] = 'Beğeni';
+$LNG ['admin_sub_wholiked'] = 'avatarlar bir parça sevdim kullanıcıların ekran';
 
-$LNG['admin_ttl_ronline'] = 'Online Friends';
-$LNG['admin_sub_ronline'] = 'Number of online friends to be displayed on the Feed/Subscriptions page (sidebar).';
+$LNG ['admin_ttl_rperpage'] = 'Yönetici paneli';
+$LNG ['admin_sub_rperpage'] = 'Yönetici Yönet sayfalar için sayfa başına sonuç';
 
-$LNG['admin_ttl_nperwidget'] = 'Dropdown Notifications';
-$LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, tracks)';
+$LNG ['admin_ttl_sperpage'] = 'Arkadaşlar';
+$LNG ['admin_sub_sperpage'] = ' sayfa başına görüntülenecek arkadaş sayısı (profil sayfası)';
+
+$LNG ['admin_ttl_ronline'] = 'Online arkadaşlar';
+$LNG ['admin_sub_ronline'] = ' Yayın/abonelik sayfa (kenar çubuğu) üzerinde görüntülenmesi için online arkadaş sayısı.';
+
+$LNG ['admin_ttl_nperwidget'] = 'Açılan bildirimleri';
+$LNG ['admin_sub_nperwidget'] = 'Kategori (seviyor, Yorumlar, parça) almak için bildirim sayısı';
+
 
 $LNG['per_page'] = '/ page';
 $LNG['second'] = 'second';
@@ -737,44 +741,47 @@ $LNG['account_suspended'] = 'This account is currently suspended.';
 $LNG['view'] = 'View';
 
 // PROFILE //
-$LNG['profile_not_exist'] = 'Sorry, but this profile does not exist.';
-$LNG['profile_semi_private'] = 'Sorry, but this profile is private, only the friends of this user can view the profile.';
-$LNG['profile_private'] = 'Sorry, but this profile is completely private.';
-$LNG['profile_suspended'] = 'Sorry, but this profile has been suspended.';
-$LNG['profile_not_exist_ttl'] = 'Profile does not exist';
-$LNG['profile_semi_private_ttl'] = 'Profile is private';
-$LNG['profile_private_ttl'] = 'Profile is private';
-$LNG['profile_suspended_ttl'] = 'Suspended Profile';
-$LNG['add_friend'] = 'Follow';
-$LNG['remove_friend'] = 'Unfollow';
-$LNG['profile_about'] = 'About';
-$LNG['profile_born'] = 'Born';
-$LNG['profile_location'] = 'Location';
-$LNG['profile_website'] = 'Homepage';
-$LNG['profile_view_site'] = 'View website';
-$LNG['profile_view_profile'] = 'View Profile';
-$LNG['profile_view_social'] = 'View %s profile';
-$LNG['pro_user'] = 'Pro User';
-$LNG['edit_profile_cover'] = 'Change Profile Images';
-$LNG['view_all_notifications'] = 'View More Notifications';
-$LNG['view_chat_notifications'] = 'View More Messages';
-$LNG['close_notifications'] = 'Close Notifications';
-$LNG['notifications_settings'] = 'Notifications Settings';
-$LNG['no_notifications'] = 'No notifications';
-$LNG['search_title'] = 'Search Results';
-$LNG['view_all_results'] = 'View All Results';
-$LNG['close_results'] = 'Close Results';
-$LNG['no_results'] = 'No results available. Try another search.';
-$LNG['no_results_ttl'] = 'Search Results';
-$LNG['search_for_users'] = 'Search for users';
-$LNG['search_in_friends'] = 'Search in friends';
+
+$LNG ['profile_not_exist'] = 'Üzgünüm bu profili yok.';
+$LNG ['profile_semi_private'] = 'Üzgünüm bu profili özel, yalnızca bu kullanıcı arkadaş profil görebilir.';
+$LNG ['profile_private'] = 'Üzgünüm bu profil tamamen özel.';
+$LNG ['profile_suspended'] = 'Üzgünüm bu profil askıya alındı.';
+$LNG ['profile_not_exist_ttl'] = 'Profili mevcut değil';
+$LNG ['profile_semi_private_ttl'] = 'Profili özel';
+$LNG ['profile_private_ttl'] = 'Profili özel';
+$LNG ['profile_suspended_ttl'] = 'Profil askıya aldı';
+$LNG ['add_friend'] = 'Takip';
+$LNG ['remove_friend'] = 'Unfollow';
+$LNG ['profile_about'] = 'İlgili';
+$LNG ['profile_born'] = 'Tarihi';
+$LNG ['profile_location'] = 'Yer';
+$LNG ['profile_website'] = 'Ana';
+$LNG ['profile_view_site'] = 'Web sitesi göster';
+$LNG ['profile_view_profile'] = 'Profil';
+$LNG ['profile_view_social'] = '%s profil görüntüle';
+$LNG ['pro_user'] = 'Pro kullanıcı';
+$LNG ['edit_profile_cover'] = 'Değişiklik profil resimleri';
+$LNG ['view_all_notifications'] = 'Görünümü daha bildirimleri';
+$LNG ['view_chat_notifications'] = 'Daha iletileri görüntüleme';
+$LNG ['close_notifications'] = 'Yakın bildirimleri';
+$LNG ['notifications_settings'] = "Bildirimleri Ayarlar²";
+$LNG ['no_notifications'] = 'Hiçbir bildirim';
+$LNG ['search_title'] = 'Arama sonuçları';
+$LNG ['view_all_results'] = 'Görünümü tüm sonuçları';
+$LNG ['close_results'] = 'Yakın sonuçları';
+$LNG ['no_results'] = ' hiçbir sonuç elde edilebilir. Başka bir arama yapmayı deneyin.';
+$LNG ['no_results_ttl'] = 'Arama sonuçları';
+$LNG ['search_for_users'] = 'Kullanıcı ara';
+$LNG ['search_in_friends'] = 'Arama arkadaşlar';
 $LNG['follows'] = 'Follows';
 $LNG['followed_by'] = 'Followed by';
 $LNG['people'] = 'people';
 
-// PHP MODULES
-$LNG['openssl_error'] = 'You must enable <strong>OpenSSL</strong> extension on your server';
-$LNG['curl_error'] = 'We recommend to enable <strong>cURL</strong> extension on your server';
+
+//PHP MODÜLLERİ
+$LNG ['openssl_error'] = 'Sunucunuzda <strong>OpenSSL</strong> uzatma etkinleştirmeniz gerekir';
+$LNG ['curl_error'] = 'Biz <strong>cURL</strong> uzatma sunucunuzda etkinleştirmek için öneririz';
+
 
 // PRO MESSAGES
 $LNG['go_pro_0'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks.';
@@ -870,20 +877,22 @@ $LNG['api_documentation'] = 'API Documentation';
 $LNG['developers'] = 'Geliştirici';
 $LNG['language'] = 'Dil';
 
-// MONTHS
-$LNG['month'] = 'Month';
-$LNG['year'] = 'Year';
-$LNG['day'] = 'Day';
-$LNG['month_1'] = 'January';
-$LNG['month_2'] = 'February';
-$LNG['month_3'] = 'March';
-$LNG['month_4'] = 'April';
-$LNG['month_5'] = 'May';
-$LNG['month_6'] = 'June';
-$LNG['month_7'] = 'July';
-$LNG['month_8'] = 'August';
-$LNG['month_9'] = 'September';
-$LNG['month_10'] = 'October';
-$LNG['month_11'] = 'November';
-$LNG['month_12'] = 'December';
+// Aylar
+
+$LNG ['ay'] = 'Ay';
+$LNG ['yıl'] = 'Yıl';
+$LNG ['gün'] = 'Gün';
+$LNG ['month_1'] = 'Ocak';
+$LNG ['month_2'] = 'Şubat';
+$LNG ['month_3'] = 'Mart';
+$LNG ['month_4'] = 'Nisan';
+$LNG ['month_5'] = 'Mayıs';
+$LNG ['month_6'] = 'Haziran';
+$LNG ['month_7'] = 'Temmuz';
+$LNG ['month_8'] = 'Ağustos';
+$LNG ['month_9'] = 'Eylül';
+$LNG ['month_10'] = 'Ekim';
+$LNG ['month_11'] = 'Kasım';
+$LNG ['month_12'] = 'Aralık';
+
 ?>
