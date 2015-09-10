@@ -2,11 +2,11 @@
 
 // Character encoding
 $LNG['charset'] = "iso-8859-1";
-$LNG['user_success'] = 'Tamamdır üye oldun!';
+$LNG['user_success'] = 'Hayırlı olsun, üye oldun!';
 $LNG['user_exists'] = 'Bu kullanıcı adını daha önce kullanmışlar :(';
 $LNG['email_exists'] = 'Bu e-posta adresi daha önce kullanılmış.';
-$LNG['all_fields'] = 'Bütün boşlukları doldursana';
-$LNG['user_alnum'] = 'Kardeş kullanıcı adın sadece harflerden ve rakamlardan oluşmalı!.';
+$LNG['all_fields'] = 'Bütün boşlukları doldurmalısın';
+$LNG['user_alnum'] = 'Kullanıcı adın sadece harflerden ve rakamlardan oluşmalı!.';
 $LNG['user_too_short'] = 'Kullanıcı adın 3 karakterden fazla, 34 karakterden az olmalı.';
 $LNG['invalid_email'] = 'Geçersiz e-posta';
 $LNG['invalid_user_pw'] = 'Geçersiz kullanıcı adı veya şifre';
@@ -20,7 +20,7 @@ $LNG['username'] = 'Kullanıcı Adı';
 $LNG['email'] = 'E-Posta';
 $LNG['captcha'] = 'Captcha';
 $LNG['username_or_email'] = 'Kullanıcı Adu veya e-posta';
-$LNG['welcome_desc'] = 'heryerde her zaman müzik ve eğlence.';
+$LNG['welcome_desc'] = 'Her yerde her zaman müzik ve eğlence.';
 $LNG['welcome_about'] = 'paylaş, dinle, eğlen';
 $LNG['join_now'] = 'Üye Ol';
 $LNG['learn_more'] = 'Daha fazla bilgi için';
@@ -43,10 +43,10 @@ $LNG['all_rights_reserved'] = 'Tüm Hakları Saklıdır';
 $LNG['settings_saved'] = 'Ayarlar Kaydedildi';
 $LNG['password_changed'] = 'Şifre Değiştirildi';
 $LNG['nothing_changed'] = 'Hiçbirşey Değişmedi';
-$LNG['password_not_changed'] = 'Parolanız değiştirilmedi.';
+$LNG['password_not_changed'] = 'Parolanız değiştirilemedi.';
 $LNG['image_saved'] = 'Resim Kaydedildi';
 $LNG['profile_picture_saved'] = 'Profilin resminiz değiştirildi.';
-$LNG['error'] = 'Error Mavi Ekran Verdim :( ';
+$LNG['error'] = 'Error! Mavi Ekran Verdim :( ';
 $LNG['no_file'] = 'Yüklenecek herhangi bir dosya seçilmedi veya seçili dosya(lar) boş.';
 $LNG['file_exceeded'] = 'Seçili dosya boyutu <strong>%s</strong> MB. geçmemelidir';
 $LNG['file_format'] = 'Yüklediğin Format Desteklenemiyor <strong>%s</strong> dosya formatı';
@@ -208,7 +208,7 @@ $LNG['edit_playlist'] = 'Şarkı Listesini Düzenle';
 $LNG['go_back'] = 'Geri Git';
 
 // MESSAGES / CHAT //
-$LNG['lonely_here'] = 'Çok yalnızsın gözüküyorsun buralarda. Biraz arkadaş edinsen iyi olur :)';
+$LNG['lonely_here'] = 'Çok yalnızsın gözüküyorsun. Biraz arkadaş edinsen iyi olur :)';
 $LNG['write_message'] = 'Mesaj at';
 $LNG['chat_too_long'] = 'Üzgünüm ama bir mesajın içerebileceği maksimum karakter <strong>%s</strong>.';
 $LNG['blocked_by'] = 'Mesaj gönderilemedi. <strong>%s</strong> tarafınden engellendin.';
@@ -354,9 +354,9 @@ $LNG['ttl_delete_avatar'] = 'Şu anki profil fotoğrafını sil';
 
 $LNG['opt_public'] = 'Toplum';
 $LNG['opt_private'] = 'Özel';
-$LNG['opt_semi_private'] = 'Only subscribed allowed';
+$LNG['opt_semi_private'] = 'Sadece abonelere izin var';
 
-$LNG['opt_offline_off'] = 'Çevrimizi (when available)';
+$LNG['opt_offline_off'] = 'Çevrimiçi (when available)';
 $LNG['opt_offline_on'] = 'Hep çevrimdışı';
 
 $LNG['ttl_password'] = 'Şifre';
@@ -378,14 +378,14 @@ $LNG['sub_notificationd'] = 'Display alert and notifications for <strong>Chats</
 $LNG['ttl_notificationf'] = 'Arkadaş Bildirimleri';
 $LNG['sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong>';
 
-$LNG['ttl_email_comment'] = 'Emails on Comments';
-$LNG['sub_email_comment'] = 'Receive e-mails when someone comments on your tracks';
+$LNG['ttl_email_comment'] = 'Yorumlar için e-posta';
+$LNG['sub_email_comment'] = 'Biri şarkına yorum yaptığında bildirim al.';
 
-$LNG['ttl_email_like'] = 'Emails on Likes';
-$LNG['sub_email_like'] = 'Receive e-mails when someone likes your tracks';
+$LNG['ttl_email_like'] = 'Beğeniler için e-posta';
+$LNG['sub_email_like'] = 'Biri şarkını beğendiği zaman e-posta al.';
 
-$LNG['ttl_email_new_friend'] = 'Emails on New Friends';
-$LNG['sub_email_new_friend'] = 'Receive e-mails when someone adds you as friend';
+$LNG['ttl_email_new_friend'] = 'Yeni arkadaşlık teklifine e-posta';
+$LNG['sub_email_new_friend'] = 'Biri seni eklediğinde e-posta al.';
 
 $LNG['user_ttl_sidebar'] = 'Ayarlar';
 
@@ -417,16 +417,16 @@ $LNG ['admin_ttl_security'] = 'Şifre ayarları';
 $LNG ['admin_ttl_social'] = 'Sosyal oturumu';
 $LNG ['admin_ttl_pro'] = 'Pro hesapları';
 $LNG ['admin_ttl_themes'] = 'Temalar';
-$LNG ['admin_ttl_users'] = 'Kullanıcı yönetmek';
-$LNG ['admin_ttl_stats'] = 'İstatistik';
+$LNG ['admin_ttl_users'] = 'Kullanıcı yönet';
+$LNG ['admin_ttl_stats'] = 'İstatistikler';
 $LNG ['admin_ttl_users_settings'] = 'Kullanıcı ayarları';
-$LNG ['admin_ttl_reports'] = 'Raporlar yönetmek';
-$LNG ['admin_ttl_ads'] = 'Reklamlar yönetmek';
-$LNG ['admin_ttl_categories'] = 'Kategoriler yönetmek';
-$LNG ['admin_ttl_payments'] = 'Ödemeleri yönetmek';
+$LNG ['admin_ttl_reports'] = 'Raporları yönet';
+$LNG ['admin_ttl_ads'] = 'Reklamları yönet';
+$LNG ['admin_ttl_categories'] = 'Kategorileri yönet';
+$LNG ['admin_ttl_payments'] = 'Ödemeleri yönet';
 
 
-$LNG['admin_ttl_title'] = 'Title';
+$LNG['admin_ttl_title'] = 'Başlık';
 $LNG['admin_sub_title'] = 'The site\'s title';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
@@ -435,22 +435,22 @@ $LNG['admin_sub_captcha'] = 'Enable captcha at registration';
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
 $LNG['admin_sub_timestamp'] = 'The Tracks, Comments and Chat timestamps type';
 
-$LNG['admin_ttl_tracks_perpage'] = 'Tracks';
-$LNG['admin_sub_tracks_perpage'] = 'The number of tracks per page';
+$LNG['admin_ttl_tracks_perpage'] = 'Şarkılar';
+$LNG['admin_sub_tracks_perpage'] = 'Sayfa başına düşen şarkılar';
 
-$LNG['admin_ttl_com_perpage'] = 'Comments';
-$LNG['admin_sub_com_perpage'] = 'The number of comments per page';
+$LNG['admin_ttl_com_perpage'] = 'Yorumlar';
+$LNG['admin_sub_com_perpage'] = 'Sayfa başına düşen yorumlar';
 
-$LNG['admin_ttl_chat_perpage'] = 'Chat';
-$LNG['admin_sub_chat_perpage'] = 'The number of chat conversations per page';
+$LNG['admin_ttl_chat_perpage'] = 'Sohbet';
+$LNG['admin_sub_chat_perpage'] = 'Sayfa başına düşen konuşmalar';
 
-$LNG['admin_ttl_volume'] = 'Volume';
+$LNG['admin_ttl_volume'] = 'Ses';
 $LNG['admin_sub_volume'] = 'Set the default volume';
 
-$LNG['admin_ttl_nperpage'] = 'Notifications';
+$LNG['admin_ttl_nperpage'] = 'Bildirimler';
 $LNG['admin_sub_nperpage'] = 'The number of notifications to be shown (Notifications Page)';
 
-$LNG['admin_ttl_qperpage'] = 'Search';
+$LNG['admin_ttl_qperpage'] = 'Ara';
 $LNG['admin_sub_qperpage'] = 'The number of user results per page (Search Page)';
 
 $LNG['admin_ttl_message_limit'] = 'Message Limit';
@@ -465,7 +465,7 @@ $LNG['admin_sub_notificationsn'] = 'The update interval to check for new events 
 $LNG['admin_ttl_chatrefresh'] = 'Chat Refresh';
 $LNG['admin_sub_chatrefresh'] = 'The time how often the chat window updates with new messages';
 
-$LNG['admin_ttl_timeonline'] = 'Online Users';
+$LNG['admin_ttl_timeonline'] = 'Çevrimiçi kullanıcılar';
 $LNG['admin_sub_timeonline'] = 'The amount of time to be considered online since the last user\'s activity';
 
 $LNG['admin_ttl_image_profile'] = 'Profile Image Size';
@@ -597,120 +597,120 @@ $LNG ['admin_ttl_nperwidget'] = 'Açılan bildirimleri';
 $LNG ['admin_sub_nperwidget'] = 'Kategori (seviyor, Yorumlar, parça) almak için bildirim sayısı';
 
 
-$LNG['per_page'] = '/ page';
-$LNG['second'] = 'second';
-$LNG['seconds'] = 'seconds';
-$LNG['minute'] = 'minute';
-$LNG['minutes'] = 'minutes';
-$LNG['hour'] = 'hour';
-$LNG['recommended'] = 'recommended';
-$LNG['edit_user'] = 'Edit User';
-$LNG['username_to_edit'] = 'Enter a username';
-$LNG['username_to_edit_sub'] = 'Enter the username you want to edit';
-$LNG['add_category'] = 'Add category';
+$LNG['per_page'] = '/ sayfa';
+$LNG['second'] = 'saniye';
+$LNG['seconds'] = 'saniyeler';
+$LNG['minute'] = 'dakika';
+$LNG['minutes'] = 'dakikalar';
+$LNG['hour'] = 'saat';
+$LNG['recommended'] = 'Tavsiye Edilenler';
+$LNG['edit_user'] = 'Kullanıcıyı Düzenle';
+$LNG['username_to_edit'] = 'Bir kullanıcı adı gir';
+$LNG['username_to_edit_sub'] = 'Düzenlemek istediğin bir kullanıcı adı seç';
+$LNG['add_category'] = 'Kategori Ekle';
 $LNG['case_id'] = 'Case ID';
 $LNG['enter_case_id'] = 'Enter the Case ID you want to view';
 $LNG['valid_rcs'] = 'Valid reported copyright strikes';
-$LNG['payment_id'] = 'Payment ID';
-$LNG['enter_payment_id'] = 'Enter a Payment ID you want to view';
+$LNG['payment_id'] = 'Ödeme ID';
+$LNG['enter_payment_id'] = 'Görüntülemek istediğin ödeme IDsini seç';
 
 // STATS //
-$LNG['user_registration'] = 'User Registration';
-$LNG['users_today'] = 'Today';
-$LNG['users_this_month'] = 'This Month';
-$LNG['users_last_30'] = 'Last 30 days';
-$LNG['total_users'] = 'Total';
-$LNG['plays_today'] = 'Plays Today';
-$LNG['plays_yesterday'] = 'Plays Yesterday';
-$LNG['plays_total'] = 'Plays Total';
-$LNG['plays_this_month'] = 'Plays This Month';
-$LNG['tracks_uploaded'] = 'Tracks Uploaded';
-$LNG['total_space'] = 'Total Space';
-$LNG['used_space'] = 'Used Space';
-$LNG['free_space'] = 'Free Space';
-$LNG['filter_stats'] = 'Filter Statistics';
-$LNG['stats_today'] = 'Today';
-$LNG['stats_last7'] = 'Last 7 days';
-$LNG['stats_last30'] = 'Last 30 days';
-$LNG['stats_last356'] = 'Last 12 months';
-$LNG['stats_total'] = 'Total';
-$LNG['most_played'] = 'Most Played';
-$LNG['most_liked'] = 'Most Liked';
-$LNG['most_commented'] = 'Most Commented';
-$LNG['who_played_most'] = 'Who played the most';
-$LNG['top_countries'] = 'Top countries';
-$LNG['top_cities'] = 'Top cities';
-$LNG['stats_note'] = 'Note: The statistics are gathered from registered users.';
+$LNG['user_registration'] = 'Kullanıcı Üyeliği';
+$LNG['users_today'] = 'Bugün';
+$LNG['users_this_month'] = 'Bu Ay';
+$LNG['users_last_30'] = 'Son 30 gün';
+$LNG['total_users'] = 'Toplamda';
+$LNG['plays_today'] = 'Bugünün oynatmaları';
+$LNG['plays_yesterday'] = 'Dünün oynatmaları';
+$LNG['plays_total'] = 'Toplam Oynatma';
+$LNG['plays_this_month'] = 'Bu ayın oynatmaları';
+$LNG['tracks_uploaded'] = 'Yüklenen Şarkılar';
+$LNG['total_space'] = 'Toplam Boşluk';
+$LNG['used_space'] = 'Kullanılan alan';
+$LNG['free_space'] = 'Boş alan';
+$LNG['filter_stats'] = 'Kısıtlı İstatistikler';
+$LNG['stats_today'] = 'Bugün';
+$LNG['stats_last7'] = 'Son 7 gün';
+$LNG['stats_last30'] = 'Son 30 gün';
+$LNG['stats_last356'] = 'Son 12 ay';
+$LNG['stats_total'] = 'Toplam';
+$LNG['most_played'] = 'En çok oynatılanlar';
+$LNG['most_liked'] = 'En çok sevilenler';
+$LNG['most_commented'] = 'En çok yorum yapılanlar';
+$LNG['who_played_most'] = 'En çok hangisi oynatıldı';
+$LNG['top_countries'] = 'En etkin ülkeler';
+$LNG['top_cities'] = 'En etkin şehirler';
+$LNG['stats_note'] = 'Not: İstatistikler üye kullanıcılarımız baz alınarak oluşturulmuştur';
 
-$LNG['plays'] = 'Plays';
-$LNG['comments'] = 'Comments';
-$LNG['tracks_and_comments'] = 'Tracks & Comments';
+$LNG['plays'] = 'Oynatmalar';
+$LNG['comments'] = 'Yorumlar';
+$LNG['tracks_and_comments'] = 'Şarkılar & Yorumlar';
 $LNG['reports_title'] = 'Reports (Tracks %26 Comments)';
-$LNG['total_tracks'] = 'Total Tracks';
-$LNG['public_tracks'] = 'Public Tracks';
-$LNG['private_tracks'] = 'Private Tracks';
-$LNG['total_comments'] = 'Total Comments';
-$LNG['stats_total'] = 'Total';
-$LNG['stats_public'] = 'Public';
-$LNG['stats_private'] = 'Private';
-$LNG['reports'] = 'Reports';
-$LNG['total_reports'] = 'Total Reports';
-$LNG['pending_reports'] = 'Pending Reports';
-$LNG['safe_reports'] = 'Safe Reports';
-$LNG['deleted_reports'] = 'Deleted Reports';
-$LNG['likes_today'] = 'Likes Today';
-$LNG['likes_this_month'] = 'Likes This Month';
-$LNG['likes_last_30'] = 'Last 30 days';
-$LNG['likes_total'] = 'Total Likes';
-$LNG['likes'] = 'Likes';
-$LNG['playlists'] = 'Playlists';
-$LNG['playlist'] = 'Playlist';
-$LNG['playlists_today'] = 'Playlists Today';
-$LNG['playlists_this_month'] = 'Playlists This Month';
-$LNG['playlists_total'] = 'Playlists Total';
-$LNG['listened_x_times'] = 'Listened %s times';
-$LNG['payments'] = 'Payments';
-$LNG['total_payments'] = 'Total Payments';
-$LNG['payments_today'] = 'Payments Today';
-$LNG['payments_this_month'] = 'Payments This Month';
-$LNG['payments_last_30'] = 'Last 30 Days';
-$LNG['earnings'] = 'Earnings';
-$LNG['earnings_today'] = 'Earnings today';
-$LNG['earnings_this_month'] = 'Earnings this month';
-$LNG['earnings_last_30'] = 'Last 30 days';
-$LNG['total_earnings'] = 'Total earnings';
+$LNG['total_tracks'] = 'Toplam şarkılar';
+$LNG['public_tracks'] = 'Sıradan şarkıları';
+$LNG['private_tracks'] = 'Özel şarkılar';
+$LNG['total_comments'] = 'Toplam yorumlar';
+$LNG['stats_total'] = 'Toplam';
+$LNG['stats_public'] = 'Sıradan';
+$LNG['stats_private'] = 'Özel';
+$LNG['reports'] = 'Raporlar';
+$LNG['total_reports'] = 'Toplam raporlar';
+$LNG['pending_reports'] = 'Askıya alınmış raporlar';
+$LNG['safe_reports'] = 'Güvenli raporlar';
+$LNG['deleted_reports'] = 'Silinmiş raporlar';
+$LNG['likes_today'] = 'Bugünün beğenileri';
+$LNG['likes_this_month'] = 'Bu ayın beğenileri';
+$LNG['likes_last_30'] = 'Son 30 gün';
+$LNG['likes_total'] = 'Toplam beğeniler';
+$LNG['likes'] = 'Beğeniler';
+$LNG['playlists'] = 'Şarkı Listeleri';
+$LNG['playlist'] = 'Şarkı Listesi';
+$LNG['playlists_today'] = 'Bugünün şarkı listeleri';
+$LNG['playlists_this_month'] = 'Bu ayın şarkı listeleri';
+$LNG['playlists_total'] = 'Toplam şarkı listeleri';
+$LNG['listened_x_times'] = '%s kere dinlendi';
+$LNG['payments'] = 'Ödemeler';
+$LNG['total_payments'] = 'Toplam ödemeler';
+$LNG['payments_today'] = 'Bugün ödemeler';
+$LNG['payments_this_month'] = 'Bu ay ödemeler';
+$LNG['payments_last_30'] = 'Son 30 gün ödemeler';
+$LNG['earnings'] = 'Kazanılanlar';
+$LNG['earnings_today'] = 'Bugünki kazanç';
+$LNG['earnings_this_month'] = 'Bu ayki kazanç';
+$LNG['earnings_last_30'] = 'Son 30 günün kazancı';
+$LNG['total_earnings'] = 'Toplam kazanç';
 
 // PLAYER //
-$LNG['mute'] = 'Mute';
-$LNG['unmute'] = 'Unmute';
-$LNG['repeat'] = 'Repeat';
-$LNG['repeat_off'] = 'Repeat Off';
+$LNG['mute'] = 'Sessiz';
+$LNG['unmute'] = 'Sesi aç';
+$LNG['repeat'] = 'Tekrarla';
+$LNG['repeat_off'] = 'Tekrarlamayı kapat';
 
 // SHARE //
-$LNG['share_facebook'] = 'Share on Facebook';
-$LNG['share_twitter'] = 'Share on Twitter';
-$LNG['share_gplus'] = 'Share on Google+';
-$LNG['share_pinterest'] = 'Share on Pinterest';
-$LNG['share_email'] = 'Share via email';
-$LNG['share_sn'] = 'Share on Social Networks';
+$LNG['share_facebook'] = 'Facebook ta paylaş';
+$LNG['share_twitter'] = 'Twitter da paylaş';
+$LNG['share_gplus'] = 'Google+ ta paylaş';
+$LNG['share_pinterest'] = 'Pinterest te paylaş';
+$LNG['share_email'] = 'Via Email paylaş';
+$LNG['share_sn'] = 'Sosyal medyada paylaş';
 $LNG['share_url'] = 'Share URL';
 $LNG['embed'] = 'Embed';
 $LNG['embed_code'] = 'Embed Code';
-$LNG['embed_error'] = 'Sorry, we couldn\'t find the requested track.';
+$LNG['embed_error'] = 'Üzgünüm. İstediğin parçayı bulamadım.';
 
 // LIKES //
-$LNG['already_liked'] = 'You\'ve already liked this track.';
-$LNG['already_disliked'] = 'You\'ve already disliked this track.';
-$LNG['like'] = 'Like';
-$LNG['dislike'] = 'Liked';
-$LNG['like_track_not_exist'] = 'This track doesn\'t exist or has been deleted.';
-$LNG['liked_this'] = 'liked this';
+$LNG['already_liked'] = 'Bu şarkıyı zaten beğenmişsin.';
+$LNG['already_disliked'] = 'Bu şarkıyı zaten beğenmemişsin.';
+$LNG['like'] = 'Beğen';
+$LNG['dislike'] = 'Beğenme';
+$LNG['like_track_not_exist'] = 'Bu şarkı muhtemelen silinmiş ya da böyle bir şarkı kaydı yok.';
+$LNG['liked_this'] = 'Bunu beğendin';
 
 // MISC //
-$LNG['from'] = 'From';
-$LNG['to'] = 'To';
-$LNG['type'] = 'Type';
-$LNG['status'] = 'Status';
+$LNG['from'] = 'dan';
+$LNG['to'] = 'a';
+$LNG['type'] = 'Tür';
+$LNG['status'] = 'Durum';
 $LNG['sponsored'] = 'Reklamlar';
 $LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> liked your <a href="%s" rel="loadpage">track</a>';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> commented on your <a href="%s" rel="loadpage">track</a>';
@@ -721,10 +721,10 @@ $LNG['new_comment_fa'] = '<strong><a href="%s" rel="loadpage">%s</a></strong> co
 $LNG['new_track_fa'] = '<strong><a href="%s" rel="loadpage">%s</a></strong> uploaded a new <strong><a href="%s" rel="loadpage">track</a></strong>';
 $LNG['change_password'] = 'Şifreyi Değiştir';
 $LNG ['enter_new_password'] = 'yeni parolanızı girin';
-$LNG ['enter_reset_key'] = 'sıfırlama anahtarı girin';
-$LNG ['enter_username'] = 'Kullanıcı adı girin';
+$LNG ['enter_reset_key'] = 'Son şifrenizi girin';
+$LNG ['enter_username'] = 'Kullanıcı adınızı girin';
 $LNG ['remember_me'] = 'Beni hatırla ;) ';
-$LNG ['reset_key'] = 'Anahtar Resetle';
+$LNG ['reset_key'] = 'Şifreyi Resetle';
 $LNG ['new_password_'] = 'Yeni parola';
 $LNG ['password_recovery'] = 'Şifre kurtarma';
 $LNG ['recover'] = 'Kurtarmak';
@@ -743,21 +743,21 @@ $LNG ['view'] = 'Bak';
 
 // PROFILE //
 
-$LNG ['profile_not_exist'] = 'Üzgünüm bu profili yok.';
-$LNG ['profile_semi_private'] = 'Üzgünüm bu profili özel, yalnızca bu kullanıcı arkadaş profil görebilir.';
+$LNG ['profile_not_exist'] = 'Üzgünüm, böyle bir profil yok.';
+$LNG ['profile_semi_private'] = 'Üzgünüm, bu profil biraz özel. Sadece arkadaşları görebilir.';
 $LNG ['profile_private'] = 'Üzgünüm bu profil tamamen özel.';
 $LNG ['profile_suspended'] = 'Üzgünüm bu profil askıya alındı.';
 $LNG ['profile_not_exist_ttl'] = 'Profili mevcut değil';
 $LNG ['profile_semi_private_ttl'] = 'Profili özel';
 $LNG ['profile_private_ttl'] = 'Profili özel';
-$LNG ['profile_suspended_ttl'] = 'Profil askıya aldı';
+$LNG ['profile_suspended_ttl'] = 'Profil askıya alındı';
 $LNG ['add_friend'] = 'Takip';
-$LNG ['remove_friend'] = 'Unfollow';
+$LNG ['remove_friend'] = 'Peşini bırak';
 $LNG ['profile_about'] = 'İlgili';
 $LNG ['profile_born'] = 'Tarihi';
 $LNG ['profile_location'] = 'Yer';
 $LNG ['profile_website'] = 'Web Sitesi';
-$LNG ['profile_view_site'] = 'Web sitesi göster';
+$LNG ['profile_view_site'] = 'Web sitesi görüntüle';
 $LNG ['profile_view_profile'] = 'Profil';
 $LNG ['profile_view_social'] = '%s profil görüntüle';
 $LNG ['pro_user'] = 'Pro kullanıcı';
@@ -776,7 +776,7 @@ $LNG ['search_for_users'] = 'Kullanıcı ara';
 $LNG ['search_in_friends'] = 'Arama arkadaşlar';
 $LNG['follows'] = 'Follows';
 $LNG['followed_by'] = 'Takip Eden';
-$LNG['people'] = 'people';
+$LNG['people'] = 'insanlar';
 
 
 //PHP MODÜLLERİ
@@ -785,27 +785,27 @@ $LNG ['curl_error'] = 'Biz <strong>cURL</strong> uzatma sunucunuzda etkinleştir
 
 
 // PRO MESSAGES
-$LNG['go_pro_0'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks.';
-$LNG['go_pro_1'] = 'Get more in-depth statistics about your audience.';
-$LNG['go_pro_2'] = 'Get more total storage space and upload longer tracks.';
-$LNG['go_pro_ttl_1'] = 'Know more';
-$LNG['go_pro_ttl_2'] = 'Get more';
-$LNG['go_pro_3'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks, more storage space and upload longer tracks.';
+$LNG['go_pro_0'] = 'Daha derinlemesine istatistik al. Mesela kimin şarkılarını dinlediğini veya nerede dinlendiğini gör.';
+$LNG['go_pro_1'] = 'Şarkıların hakkında daha derin istatistikler al..';
+$LNG['go_pro_2'] = 'Daha fazla depolama alanına sahip ol ve daha uzun şarkılar yükle.';
+$LNG['go_pro_ttl_1'] = 'Daha fazlası';
+$LNG['go_pro_ttl_2'] = 'Daha fazla';
+$LNG['go_pro_3'] = 'Daha derinlemesine istatistik al. Mesela kimin şarkılarını dinlediğini veya nerede dinlendiğini gör. Daha fazla depolama alanına sahip ol.';
 $LNG['go_pro_4'] = 'Daha fazla yükleme alanı, hedef kitlenizi, Pro Bandajı, ve daha fazlası ...';
-$LNG['current_plan'] = 'Your current plan is';
+$LNG['current_plan'] = 'Şu anki planın';
 $LNG['plan_0'] = 'Standart';
 $LNG['plan_1'] = 'Pro';
-$LNG['view_pricing'] = 'View Pricing';
+$LNG['view_pricing'] = 'Ücretlendirmeyi görüntüle';
 $LNG['total_space'] = 'Toplam Alan';
 $LNG['total_space_desc'] = 'Yüklemek için izin verilen toplam alan';
-$LNG['total_size'] = 'Toplam boyutu';
+$LNG['total_size'] = 'Toplam boyut';
 $LNG['total_size_desc'] = 'Parça yüklemek için izin verilen boyut.';
 $LNG['basic_stats'] = 'Temel İstatistikler';
-$LNG['basic_stats_desc'] = 'Count plays, likes & comments.';
+$LNG['basic_stats_desc'] = 'Oynatma, beğeni ve yorum istatistikleri.';
 $LNG['extended_stats'] = 'Genişletilmiş istatistikler';
-$LNG['extended_stats_desc'] = 'Know who\'s playing your tracks and in which country your tracks are the most played.';
-$LNG['pro_badge'] = 'Pro Bandajı';
-$LNG['pro_badge_desc'] = 'Pro badge which will appear on your account.';
+$LNG['extended_stats_desc'] = 'Kimin şarkılarını dinlediğini ve en çok hangi şehirlerde dinlendiğini öğren!.';
+$LNG['pro_badge'] = 'Pro Rütbesi';
+$LNG['pro_badge_desc'] = 'Profilinde görüntülenecek pro rütbesi.';
 $LNG ['pro_month'] = "Aylık Pro planı - %s";
 $LNG ['pro_year'] = "Yıllık Pro planı - %s";
 $LNG['go_pro_desc'] = 'Daha fazla yükleme boyutu, daha fazla istatistik, daha fazla özellik';
